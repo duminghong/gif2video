@@ -1,4 +1,4 @@
 node_modules/
-gif/*
-img/*
-video/*
+gif/*.gif
+img/*.png
+video/*.mp4
