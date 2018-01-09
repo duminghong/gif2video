@@ -3,6 +3,7 @@ var ffmpeg = require('fluent-ffmpeg');
 var path = require('path');
 var fs = require('fs');
 
+// 提取gif每一帧
 gifFrames({ url: 'gif/1.gif', frames: 'all' ,outputType: 'png', cumulative: true}).then(function (frameData) {
 	Promise.all(frameData.map(function(frame){
 		var data = frame.getImage();
