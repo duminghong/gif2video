@@ -1,0 +1,15 @@
+{
+  "name": "git_video",
+  "version": "1.0.0",
+  "description": "git转video",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fluent-ffmpeg": "^2.1.2",
+    "gif-frames": "^0.4.0"
+  }
+}
